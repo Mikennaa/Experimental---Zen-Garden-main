@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Elsie:wght@900&family=Quattrocento+Sans&display=swap");
+body {
+  font-size: 14px;
+  margin: 0 auto;
+  font-family: "Quattrocento Sans", sans-serif;
+  line-height: 1.5;
+}
+
+body h1, body h2, body h3, body p {
+  padding: 1rem;
+}
+
+h1 {
+  font-family: "Elsie", "cursive";
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  color: white;
+  margin: 0;
+  padding-left: 0rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+h1, header, .summary {
+  color: gray;
+}
+
+header h2, .summary p {
+  text-align: right;
+}
+
+.preamble {
+  background-color: #f15bb5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1.5rem 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.preamble p {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+  padding: 1rem;
+}
+
+.preamble :nth-child(2) {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.preamble :last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.preamble p {
+  z-index: 2;
+}
+
+.explanation {
+  background-color: #fee440;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1.5rem 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.explanation p {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+  padding: 1rem;
+}
+
+.explanation :nth-child(2) {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.explanation :last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.explanation p {
+  z-index: 2;
+}
+
+.participation {
+  background-color: #f15bb5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1.5rem 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.participation p {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+  padding: 1rem;
+}
+
+.participation :nth-child(2) {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.participation :last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.participation p {
+  z-index: 2;
+}
+
+.benefits {
+  background-color: #00f5d4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1.5rem 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.benefits p {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.benefits p {
+  z-index: 2;
+}
+
+.requirements {
+  background-color: #fee440;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1.5rem 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.requirements p {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+  padding: 1rem;
+}
+
+.requirements :nth-child(2) {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.requirements :last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.requirements p {
+  z-index: 2;
+}
+
+footer {
+  margin-top: 2rem;
+  background-color: #00f5d4;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px 10px 0px 0px;
+}
+
+footer a {
+  font-size: 1.5;
+  margin: 1rem;
+}
+
+.wrapper {
+  background-color: #f15bb5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: .5rem;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.wrapper h3 {
+  padding-bottom: 0rem;
+}
+
+.zen-resources {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+
+.zen-resources h3 {
+  color: black;
+}
+
+.preamble::before {
+  content: "";
+  background: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 71.65 71.65'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%2337b8ea;%7D.cls-2%7Bfill:%23fff;opacity:0.4;%7D%3C/style%3E%3C/defs%3E%3Ccircle class='cls-1' cx='35.82' cy='35.82' r='35.82'/%3E%3Cpath class='cls-2' d='M54.54,52.51a7.36,7.36,0,0,1-1.61,6.09,6.14,6.14,0,0,1-4.78,1.89c-3.17-.39-5.1-4-5.39-6.76a9.12,9.12,0,0,1,4.72-8.52c3.91-2.22,8-.64,9.21-.09,6,2.71,6.83,9.79,6.9,10.43C64.27,61.92,60.11,67.31,56,70c-6.11,4-12.65,2.32-14,2C34.27,70,30.55,63.81,29.56,62c-4-7.42-1.88-14.7-1.23-16.93a21.9,21.9,0,0,1,7.28-11.49c6.48-5.13,14-4.47,16.91-4.22a26.83,26.83,0,0,1,16.82,7.76c6.94,7.17,7.21,16.15,7.34,20.37.11,3.59.28,9.44-2.47,14.44-.42.74-1.36,2.32-1.09,2.54s2.71-1.8,4.39-4.1a19.18,19.18,0,0,0,2.9-5.92,35.54,35.54,0,0,0-.72-22.65C74.32,29.41,62.52,25.21,58.74,24.1c-3.17-.93-11.42-3.22-20.62.58-12.37,5.1-16.32,17-16.81,18.58-.74,2.4-3.62,12.66,2.21,23,1.5,2.67,7.32,12,18.89,13.81,2.07.33,13.4,1.87,21.5-6.66,7.7-8.1,6.12-18.61,5.92-19.76C69.49,51.59,68.05,43,60.7,39.19a15.89,15.89,0,0,0-9.78-1.56c-.71.12-9.46,1.74-12.08,9.69-1.29,3.93-1.3,9.72,2.5,13.42,2.47,2.4,6.9,4.28,9.78,2.67C55.29,61.08,54.35,52.49,54.54,52.51Z' transform='translate(-14.18 -16.73)'/%3E%3C/svg%3E") center top no-repeat;
+  height: 800px;
+  width: 800px;
+  left: 50%;
+  top: 175px;
+  margin-left: -26.70rem;
+  position: fixed;
+  z-index: -1;
+  -webkit-animation: spin 5s linear infinite;
+          animation: spin 5s linear infinite;
+}
+
+/*
+.preamble h3::after {
+    content: "";
+    background: $svg-blue_wrapper_candy center top no-repeat;
+    clear: right;
+    display: block;
+    width: 500px;
+    height: 500px;
+    left: 50%; 
+    margin-top: -300px;
+    padding: -25rem;
+    position: absolute;
+    //overflow: hidden;
+    object-fit: cover;
+    
+    z-index: 1;
+}
+*/
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 45rem) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font: size 10em;
+  }
+  h2 {
+    font-size: 2.7rem;
+  }
+  h3 {
+    font-size: 2.6rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  .preamble, .participation {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1em;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 4rem;
+  }
+  .preamble h3, .participation h3 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+  }
+  .preamble :nth-child(2), .participation :nth-child(2) {
+    border-radius: 10px;
+  }
+  .preamble :last-child, .participation :last-child {
+    border-radius: 10px;
+  }
+  .preamble p, .participation p {
+    border-radius: 10px;
+  }
+  .benefits {
+    width: 50%;
+    margin-bottom: 4rem;
+  }
+  .explanation, .requirements {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1.5em;
+    -ms-grid-columns: 2fr 1.5fr 1.5fr;
+        grid-template-columns: 2fr 1.5fr 1.5fr;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  body {
+    width: 64rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
